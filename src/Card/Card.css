@@ -1,0 +1,159 @@
+.card{
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+.card-top{
+    padding: 30px 14px 12px; 
+    width: 100%;
+    height: 234px;
+    background-image: url('../Card/images/college_02.jpg');
+    position: relative;
+    background-repeat: no-repeat;
+}
+.card-top-overly{
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.college-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+    z-index: 9;
+}
+.college-info ul, .cancellation{
+    list-style: none;
+}
+.college-info li{
+    padding: 8px 18px;
+    margin-right: 10px;
+    height: 34px;
+    border-radius: 16px;
+    background-color: #ffffff;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 17px;
+    display: inline-block;
+}
+
+.college-info p{
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1.33;
+    color: #ffffff;
+}
+.college-st{
+    width: 80px;
+    padding: 8px;
+    margin-left: auto;
+    height: 53px;
+    border-radius: 4px;
+    background-color: #f5a626;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.33;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+    z-index: 9;
+}
+.college-st strong{
+    font-size: 18.5px;
+    font-weight: bold;
+}
+.college-st span{
+    display: block;
+}
+.card-detail {
+    padding: 16px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.college-detail{
+    margin-right: 16px;
+}
+.card-detail p{
+    margin: 0;
+    font-size: 12px;
+}
+.card-detail h3 {
+    margin-bottom: 10px;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 0.97;
+}
+.college-add{
+    margin-bottom: 15px;
+    font-weight: 500;
+    line-height: 1.33;
+}
+.college-add span{
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 1.33;
+    color: #adadad;
+}
+.college-distance{
+    line-height: 1.33;
+    color: #adadad;
+}
+.college-distance strong{
+    color: #444444;
+}
+.college-price{
+    text-align: right;
+}
+.price{
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 0.89;
+    color: #dd1c26;
+}
+.college-price span{
+    font-size: 11px;
+    line-height: 1.64;
+    display: inline-block;
+}
+.green-text{
+    color: #37b396;
+}
+.college-card-footer {
+    padding-bottom: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+.flat-price {
+    padding: 0 16px;
+    height: 35px;
+    background-color: #ccf5e7;
+    text-align: center;
+}
+.flat-price{
+    margin-bottom: 0;
+    font-size: 12px;
+    line-height: 35px;
+    border-radius: 0 20px 20px 0;
+}
+.flat-price strong{
+    font-weight: 500;
+}
+.cancellation {
+   padding-right: 12px;
+   margin-bottom: 0;
+}
+.cancellation li{
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.33;
+    color: #37b396;
+    display: inline-block;
+}
